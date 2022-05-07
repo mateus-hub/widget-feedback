@@ -35,7 +35,10 @@ A aplicação consiste em um Widget no qual é possível relatar um problema e d
 # Como executar o projeto
 
 ## Back end
-Pré-requisitos: node.js npm / yarn
+Pré-requisitos: node.js npm
+
+## instalar dependências
+npm / yarn
 
 ```bash
 # clonar repositório
@@ -58,11 +61,8 @@ git clone https://github.com/mateus-hub/widget-feedback.git
 # entrar na pasta do projeto front end web
 cd web
 
-# instalar dependências
-yarn install
-
 # executar o projeto
-yarn start
+npm run dev
 ```
 
 # Autor
